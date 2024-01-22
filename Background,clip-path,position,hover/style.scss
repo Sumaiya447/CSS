@@ -1,0 +1,76 @@
+.back{
+    margin-top: 200px ;
+    margin-bottom: 600px;
+   background: url("/images/1.jpg"); 
+   width: 100%;
+   height: max-content;
+   background-size: 100% auto;
+   background-position: center;
+   background-attachment: fixed;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 200px;
+   font-style: italic;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}   
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    >.restaurent{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        background: url("/images/restaurent.jpg");
+        background-repeat: no-repeat;
+        overflow: hidden;
+        position: relative;
+        
+        >.burger{
+            width: 150px;
+            height: 150px;
+            background: url("/images/burger.jpg");
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+           
+        }
+        >.cake{
+            width: 150px;
+            height: 150px;
+            background: url("/images/cake.jpg");
+            background-position: center;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+           
+        }
+        >.pasta{
+            width: 150px;
+            height: 150px;
+            background: url("/images/pasta.jpg");
+            background-position: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            
+        }
+        >.pizza{
+            width: 150px;
+            height: 150px;
+            background: url("/images/pizza.jpg");
+            background-position: center;
+           position: absolute;
+           right: 0;
+           bottom: 0;
+          
+        }
+    }
+}
+   
+
+   
